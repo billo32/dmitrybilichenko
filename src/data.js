@@ -29,7 +29,7 @@ const SCOPE = '[scope · team size · key results]';
 // (used when one company has several roles).
 export const experience = [
   {
-    period: 'Sep 2025 — now',
+    period: 'Apr 2025 — now',
     company: 'TradingView',
     roles: [{ title: 'Unit leader / Senior Manager, Paper Trading' }],
     note: SCOPE,
@@ -56,6 +56,12 @@ export const experience = [
       { title: 'Architect / Full-stack / UX, ThreatDeception', period: 'Jun 2016 — Oct 2018' },
     ],
     note: SCOPE,
+  },
+  {
+    period: '[MMM YYYY] — [MMM YYYY]',
+    company: 'Self-employed',
+    roles: [{ title: 'Entrepreneur' }],
+    note: '[what you built · clients · results]',
   },
   {
     period: 'Jun 2014 — Oct 2015',
