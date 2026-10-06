@@ -32,20 +32,20 @@ export const experience = [
     period: 'Apr 2025 — now',
     company: 'TradingView',
     roles: [{ title: 'Unit leader / Senior Manager, Paper Trading' }],
-    note: SCOPE,
+    note: '3 teams · 19 people in total',
     current: true,
   },
   {
     period: 'Dec 2024 — Apr 2025',
     company: 'SMART EdTech',
     roles: [{ title: 'Head of development, LMS platform' }],
-    note: SCOPE,
+    note: '2 teams · 10 people in total',
   },
   {
     period: 'Dec 2023 — Dec 2024',
     company: 'MTS-Link',
     roles: [{ title: 'Chapter / Team leader, Webinar services' }],
-    note: SCOPE,
+    note: '5 teams · 17 people in total',
   },
   {
     period: 'Jun 2016 — Jan 2023',
