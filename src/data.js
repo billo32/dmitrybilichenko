@@ -18,8 +18,8 @@ export const profile = {
   ],
   status: '[open to / not looking]',
   about: [
-    'I develop and deliver software projects, from simple websites to complex business process automation systems used worldwide. I started as a web developer and moved into engineering management.',
-    '[One or two sentences on how you work: what kind of teams you build, what you are known for, what you are looking for next.]',
+    'I manage software projects and take responsibility for delivery: planning, risk control, status governance and what actually ships. I have led projects from simple websites to complex business process automation systems used worldwide.',
+    'I build teams and set up the processes around them, from hiring and growing team leads to delivery management. My goal is to launch international-grade features with the quality, performance and scale that implies. I started as a web developer, so I stay close to the engineering.',
   ],
 };
 
