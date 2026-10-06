@@ -25,46 +25,58 @@ export const profile = {
 
 const SCOPE = '[scope · team size · key results]';
 
+// Dates come from LinkedIn. A role with its own `period` is shown with it
+// (used when one company has several roles).
 export const experience = [
   {
-    period: '[YYYY] — now',
+    period: 'Sep 2025 — now',
     company: 'TradingView',
-    roles: ['Unit leader / Senior Manager, Paper Trading'],
+    roles: [{ title: 'Unit leader / Senior Manager, Paper Trading' }],
     note: SCOPE,
     current: true,
   },
   {
-    period: '[YYYY] — [YYYY]',
+    period: 'Dec 2024 — Apr 2025',
     company: 'SMART EdTech',
-    roles: ['Head of development, LMS platform'],
+    roles: [{ title: 'Head of development, LMS platform' }],
     note: SCOPE,
   },
   {
-    period: '[YYYY] — [YYYY]',
+    period: 'Dec 2023 — Dec 2024',
     company: 'MTS-Link',
-    roles: ['Chapter / Team leader, Webinar services'],
+    roles: [{ title: 'Chapter / Team leader, Webinar services' }],
     note: SCOPE,
   },
   {
-    period: '[YYYY] — [YYYY]',
+    period: 'Jun 2016 — Jan 2023',
     company: 'Kaspersky',
-    roles: ['Group Manager, KESCloud', 'Architect / Full-stack / UX, ThreatDeception'],
+    roles: [
+      { title: 'Group Manager, KESCloud', period: 'Apr 2022 — Jan 2023' },
+      { title: 'Team Lead, KESCloud', period: 'Oct 2018 — Apr 2022' },
+      { title: 'Architect / Full-stack / UX, ThreatDeception', period: 'Jun 2016 — Oct 2018' },
+    ],
     note: SCOPE,
   },
   {
-    period: '[YYYY] — [YYYY]',
+    period: 'Jun 2014 — Oct 2015',
     company: 'ESKY',
-    roles: ['Head of development department'],
+    roles: [
+      { title: 'Head of development department', period: 'Jun 2015 — Oct 2015' },
+      { title: 'Senior software developer', period: 'Jan 2015 — Jun 2015' },
+      { title: 'Software developer', period: 'Jun 2014 — Jan 2015' },
+    ],
     note: SCOPE,
   },
-  { period: '[YYYY] — [YYYY]', company: 'RocketStudio', roles: ['Web developer'] },
-  { period: '[YYYY] — [YYYY]', company: 'Virton', roles: ['Software developer'] },
-];
-
-export const talks = [
-  { year: '[YYYY]', title: '[Talk title]', event: '[Conference, city]' },
-  { year: '[YYYY]', title: '[Talk title]', event: '[Conference, city]' },
-  { year: '[YYYY]', title: '[Talk title]', event: '[Conference, city]' },
+  {
+    period: 'Sep 2012 — May 2013',
+    company: 'RocketStudio',
+    roles: [{ title: 'Web developer' }],
+  },
+  {
+    period: 'Feb 2012 — Sep 2012',
+    company: 'Virton',
+    roles: [{ title: 'Software developer' }],
+  },
 ];
 
 export const hackathons = ['MTS-Link', 'Intel IoT', 'Facebook'];
@@ -101,7 +113,7 @@ export const links = [
 export const nav = [
   ['about', 'about'],
   ['experience', 'experience'],
-  ['talks', 'talks'],
+  ['hackathons', 'hackathons'],
   ['side', 'side-projects'],
   ['contact', 'contact'],
 ];

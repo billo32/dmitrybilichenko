@@ -1,6 +1,6 @@
 import Logo from './components/Logo.jsx';
 import Section from './components/Section.jsx';
-import { profile, experience, talks, hackathons, projects, links, nav } from './data.js';
+import { profile, experience, hackathons, projects, links, nav } from './data.js';
 
 export default function App() {
   return (
@@ -63,8 +63,9 @@ export default function App() {
                 <div className="job-body">
                   <div className="company">{job.company}</div>
                   {job.roles.map((r) => (
-                    <div key={r} className="role">
-                      {r}
+                    <div key={r.title} className="role">
+                      <span>{r.title}</span>
+                      {r.period && <span className="role-period muted">{r.period}</span>}
                     </div>
                   ))}
                   {job.note && <div className="note">{job.note}</div>}
@@ -75,28 +76,13 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="talks" num="03" title="conferences & hackathons">
-          <div className="two-col">
-            <div className="list">
-              {talks.map((t, i) => (
-                <div key={i} className="talk">
-                  <span className="year muted">{t.year}</span>
-                  <span>
-                    {t.title}
-                    <br />
-                    <span className="muted">{t.event}</span>
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="list">
-              {hackathons.map((h) => (
-                <div key={h} className="talk">
-                  <span className="muted">hackathon&nbsp;&nbsp;</span>
-                  {h}
-                </div>
-              ))}
-            </div>
+        <Section id="hackathons" num="03" title="hackathons">
+          <div className="list">
+            {hackathons.map((h) => (
+              <div key={h} className="talk">
+                {h}
+              </div>
+            ))}
           </div>
         </Section>
 
