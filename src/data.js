@@ -105,11 +105,11 @@ export const projects = [
 ];
 
 export const links = [
-  { label: 'linkedin', href: '#' },
+  { label: 'linkedin', href: 'https://www.linkedin.com/in/dmitrybilichenko/' },
   { label: 'x', href: '#' },
   { label: 'blog', href: '#' },
   { label: 'buy-me-a-coffee', href: '#' },
-  { label: '[email]', href: '#' },
+  { label: 'hello@dmitrybilichenko.com', href: 'mailto:hello@dmitrybilichenko.com' },
 ];
 
 export const nav = [

@@ -105,8 +105,13 @@ export default function App() {
         <Section id="contact" num="05" title="contact">
           <div className="links">
             {links.map((l) => (
-              <a key={l.label} href={l.href}>
-                {l.label} {l.label.startsWith('[') ? '' : '↗'}
+              <a
+                key={l.label}
+                href={l.href}
+                {...(l.href.startsWith('http') ? { target: '_blank', rel: 'noreferrer' } : {})}
+              >
+                {l.label}
+                {l.href.startsWith('http') ? ' ↗' : ''}
               </a>
             ))}
           </div>
