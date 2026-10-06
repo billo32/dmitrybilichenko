@@ -24,8 +24,6 @@ export const profile = {
   ],
 };
 
-const SCOPE = '[scope · team size · key results]';
-
 // Dates come from LinkedIn. A role with its own `period` is shown with it
 // (used when one company has several roles).
 export const experience = [
@@ -61,7 +59,6 @@ export const experience = [
     period: 'Oct 2015 — Jun 2016',
     company: 'Self-employed',
     roles: [{ title: 'Entrepreneur' }],
-    note: '[what you built · clients · results]',
   },
   {
     period: 'Jun 2014 — Oct 2015',
@@ -71,7 +68,6 @@ export const experience = [
       { title: 'Senior software developer', period: 'Jan 2015 — Jun 2015' },
       { title: 'Software developer', period: 'Jun 2014 — Jan 2015' },
     ],
-    note: SCOPE,
   },
   {
     period: 'Sep 2012 — May 2013',
