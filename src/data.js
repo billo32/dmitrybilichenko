@@ -55,7 +55,7 @@ export const experience = [
       { title: 'Team Lead, KESCloud', period: 'Oct 2018 — Apr 2022' },
       { title: 'Architect / Full-stack / UX, ThreatDeception', period: 'Jun 2016 — Oct 2018' },
     ],
-    note: SCOPE,
+    note: 'Direct management of frontend and backend teams · indirect management of design, analytics, localization and related functions',
   },
   {
     period: 'Oct 2015 — Jun 2016',
