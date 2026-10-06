@@ -9,7 +9,8 @@ export const LOGO_URL =
 export const profile = {
   name: 'Dmitry Bilichenko',
   kicker: '// software development leader',
-  intro: 'Senior Engineering Manager. I lead development of Paper Trading at TradingView.',
+  intro:
+    'Senior Engineering Manager. I lead development of Paper Trading at TradingView, including The Leap and Contests.',
   facts: [
     ['role', 'Senior Engineering Manager'],
     ['company', 'TradingView, Paper Trading'],
