@@ -17,7 +17,7 @@ export const profile = {
     ['focus', 'delivery, performance engineering, team leadership'],
     ['experience', '14+ years in IT leadership'],
   ],
-  status: '[open to / not looking]',
+  status: 'not looking',
   about: [
     'I manage software projects and take responsibility for delivery: planning, risk control, status governance and what actually ships. I have led projects from simple websites to complex business process automation systems used worldwide.',
     'I build teams and set up the processes around them, from hiring and growing team leads to delivery management. My goal is to launch international-grade features with the quality, performance and scale that implies. I started as a web developer, so I stay close to the engineering.',
