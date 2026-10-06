@@ -58,7 +58,7 @@ export const experience = [
     note: SCOPE,
   },
   {
-    period: '[MMM YYYY] — [MMM YYYY]',
+    period: 'Oct 2015 — Jun 2016',
     company: 'Self-employed',
     roles: [{ title: 'Entrepreneur' }],
     note: '[what you built · clients · results]',
